@@ -1,0 +1,29 @@
+Type: Package
+Package: smutils
+Title: Utility Functions for Smart Meter Data Processing
+Version: 0.2.0
+Authors@R: 
+    person("Maintainer", "Markus Schaffer", , "msch@build.aau.dk", role = c("aut", "cre"))
+Description: A collection of utility functions for processing smart meter data, including 
+    interpolation, imputation and disaggregation.
+License: GPL (>= 3)
+Depends: 
+    R (>= 4.1.0)
+Imports:
+    data.table,
+    Hmisc,
+    Rcpp (>= 1.0.0),
+    stats,
+    utils,
+    collapse,
+    mlr3,
+    mlr3learners,
+    lgr,
+    R6,
+    fst,
+    IAPWS95
+LinkingTo: 
+    Rcpp
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Roxygen: list(markdown = TRUE)
