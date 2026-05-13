@@ -70,3 +70,6 @@ imputed <- impute_ma(demand, cumulative)
 x <- c(1, 2, NA, NA, 5, 6)
 impute_linear(x)
 ```
+## License
+
+GPL (>= 3)
