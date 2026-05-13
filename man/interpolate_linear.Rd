@@ -23,7 +23,7 @@ A data.table with columns:
 }
 }
 \description{
-Performs extrapolated interpolation on time series data with missing values,
+Performs extrapolated interpolation on time series data,
 returning results as a data.table with unique time points.
 }
 \details{
