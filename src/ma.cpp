@@ -1,3 +1,20 @@
+// This file is adapted from the imputeTS package:
+// https://github.com/SteffenMoritz/imputeTS/blob/bca3fcd312d531a0b78c671ad0147ae086a35d0a/src/ma.cpp
+//
+// Copyright (C) Steffen Moritz
+//
+// This file is part of smutils, which is free software: you can redistribute
+// it and/or modify it under the terms of the GNU General Public License as
+// published by the Free Software Foundation, either version 3 of the License,
+// or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful, but WITHOUT
+// ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+// FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License along with
+// this program. If not, see <https://www.gnu.org/licenses/>.
+
 #include <Rcpp.h>
 using namespace Rcpp;
 
