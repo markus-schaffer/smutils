@@ -18,6 +18,7 @@ Imports:
     collapse,
     mlr3,
     mlr3learners,
+    ranger,
     lgr,
     R6,
     fst,

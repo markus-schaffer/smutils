@@ -177,6 +177,7 @@ disaggregate_heat <- function(dt,
   resampling <- mlr3::rsmp("cv", folds = 10)
 
   # Configure Random Forest learner
+  requireNamespace("mlr3learners", quietly = TRUE)
   rf_untuned <- mlr3::lrn("regr.ranger")
   rf_untuned$param_set$set_values(num.trees = 1000, seed = seed)
   rf_untuned$id <- "rf_untuned"
