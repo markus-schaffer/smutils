@@ -37,7 +37,7 @@ spms <- function(data, demand_col, group_col, window = 5, align = "center", offs
   # Smooth using frollapply
   data[, demand_spms := collapse::na_rm(data.table::frollapply(
     pad(get(demand_col), window = window, align = align),
-    n = window,
+    N = window,
     FUN = function(x) stats::weighted.mean(x, w = weights, na.rm = TRUE),
     align = align
   ))]
